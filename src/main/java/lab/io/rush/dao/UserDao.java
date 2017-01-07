@@ -24,7 +24,6 @@ public class UserDao  {
 		try {	
 			return pm.makePersistent(user);
 		} finally {
-			System.out.println("123");
 			pm.close();
 		}	
 	}
