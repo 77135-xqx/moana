@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>电影购票系统</title> 
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />   
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    
+    <link href="/rush/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/rush/css/index.css" rel="stylesheet" /> 
+    
+    <script src="/rush/js/jquery-3.1.1.min.js"></script>
+    <script src="/rush/js/index.js"></script>
+    
+  </head>
+<body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<div class="col-md-8 pull-right">
+					  	<a class="brand" href="#">电影购票系统&nbsp;&nbsp;&nbsp;</a>
+				</div>
+			</div> <!-- /container -->
+		</div> <!-- /navbar-inner -->
+	</div> <!-- /navbar -->
+
+	<div id="login-container">
+		<div id="login-header">
+		<h3>绑定邮箱</h3>
+		</div> 
+		<div>
+		  <p>
+		    &nbsp;
+		  </p>
+		</div>
+	
+			<div id="login-content" class="clearfix">
+			<form  action="/rush/account/submit_mail"  method="post" name="mailForm" onsubmit="return mail_check()" >
+				<fieldset>
+					<div class="control-group">
+						<label class="control-label" for="mail" >常用邮箱</label>
+						<div class="controls">
+							<input type="text" name="mail"/>
+						</div>
+					</div>
+				</fieldset>
+				<div class="pull-right">
+					<button type="submit" class="btn btn-warning btn-large">
+						提交
+					</button>
+				</div>
+			</form>
+			
+		</div> 
+		<div id="login-extra">
+			<p>请绑定您的邮箱，用于接收电影票信息</p>
+		</div>
+	</div>
+  </body>
+</html>

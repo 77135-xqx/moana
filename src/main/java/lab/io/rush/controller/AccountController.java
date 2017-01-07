@@ -29,6 +29,7 @@ public class AccountController {
 		Oauth oauth = new Oauth();
 		String weibo_url="";
 		try {
+			//获取微博登录界面的链接
 			weibo_url = oauth.authorize("code",null);
 		} catch (WeiboException e1) {
 			e1.printStackTrace();

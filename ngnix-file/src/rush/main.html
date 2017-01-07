@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>电影购票系统</title> 
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />   
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    
+    <link href="/rush/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/rush/css/index.css" rel="stylesheet" /> 
+    
+    <script src="/rush/js/jquery-3.1.1.min.js"></script>
+    <script src="/rush/js/index.js"></script>
+    <script>
+	</script>
+	
+    
+  </head>
+<body onload="getTicketsLeft()">
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<div class="col-md-8 pull-right">
+					  	<a class="brand" href="#">电影购票系统&nbsp;&nbsp;&nbsp;</a>
+				</div>
+			</div> <!-- /container -->
+		</div> <!-- /navbar-inner -->
+	</div> <!-- /navbar -->
+
+	<div id="login-container">
+		<div id="login-header">
+		<h3>请购买</h3>
+		</div> 
+		<div>
+		  <p>
+		    &nbsp;
+		  </p>
+		</div>
+			<div id="login-content" class="clearfix">
+				<h3>星球大战外传：侠盗一号</h3>
+				<h5>中国功夫参星战，愿原力与你同在</h5>
+				<p>菲丽希缇·琼斯、迭戈·鲁纳、甄子丹、本·门德尔森领衔主演</p>
+				<p></p>
+					当前余票： 
+					<span id="ticketsleft">加载中。。。</span> <!-- 由js动态修改 -->
+				<p></p>
+			
+				<div class="pull-right">
+					<button type="button" class="btn btn-warning" id="buy-button" onclick="buyTicket()" >
+						确认购买
+					</button>
+				</div>
+			
+		</div> 
+		<div id="login-extra">
+			<p>购票成功后，相关电影票的信息会发送到您绑定的邮箱中</p>
+		</div>
+	</div>
+  </body>
+</html>
