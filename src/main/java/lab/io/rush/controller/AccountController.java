@@ -47,7 +47,6 @@ public class AccountController {
 		try {
 			AccessToken token = oauth.getAccessTokenByCode(code);
 			User user = userService.getUserByWeiboID(token.getUid());
-			
 			//如果用户已经用微博登录过
 			if(user!=null){
 				//保存登录状态

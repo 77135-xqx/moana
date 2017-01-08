@@ -19,10 +19,15 @@ public class UserDao  {
 	private PersistenceManagerFactory persistenceManagerFactory;
 	
 	//新增用户
+	@SuppressWarnings("unchecked")
 	public User addUser(User user){ 
 		PersistenceManager pm = persistenceManagerFactory.getPersistenceManager();
 		try {	
-			return pm.makePersistent(user);
+			pm.makePersistent(user);
+			Query query = pm.newQuery("javax.jdo.query.SQL", "SELECT * FROM user WHERE weibo_id = '"+user.getWeibo_id()+"'"); 
+			query.setClass(User.class);
+			query.setUnique(true);
+			return (User) query.execute();
 		} finally {
 			pm.close();
 		}	
