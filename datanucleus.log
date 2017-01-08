@@ -34368,3 +34368,83 @@ org.datanucleus.exceptions.ClassNotResolvedException: Class "com.test.service.Lo
 00:58:38,877 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Record" is already enhanced.
 00:58:38,892 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
 00:58:38,892 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes.
+00:58:50,128 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.1) for API "JDO"
+00:58:50,144 (main) ERROR [DataNucleus.MetaData] - Class "com.test.controller.LoginController" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "com.test.controller.LoginController" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+00:58:50,144 (main) ERROR [DataNucleus.MetaData] - Class "com.test.dao.LoginDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "com.test.dao.LoginDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+00:58:50,144 (main) ERROR [DataNucleus.MetaData] - Class "com.test.model.User" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "com.test.model.User" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+00:58:50,144 (main) ERROR [DataNucleus.MetaData] - Class "com.test.service.LoginService" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "com.test.service.LoginService" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+00:58:50,378 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Record" is already enhanced.
+00:58:50,394 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+00:58:50,394 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes.
+00:58:55,229 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.1) for API "JDO"
+00:58:55,261 (main) ERROR [DataNucleus.MetaData] - Class "com.test.controller.LoginController" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "com.test.controller.LoginController" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+00:58:55,261 (main) ERROR [DataNucleus.MetaData] - Class "com.test.dao.LoginDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "com.test.dao.LoginDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+00:58:55,261 (main) ERROR [DataNucleus.MetaData] - Class "com.test.model.User" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "com.test.model.User" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+00:58:55,261 (main) ERROR [DataNucleus.MetaData] - Class "com.test.service.LoginService" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "com.test.service.LoginService" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+00:58:55,464 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Record" is already enhanced.
+00:58:55,479 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+00:58:55,479 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes.
