@@ -64,9 +64,11 @@ public class UserDao  {
 			User user = (User) query.execute();
 			user.setMail(mail);
 			pm.refresh(user);
-			//暂时未找到如何判断更新失败
 			return true;
-		} finally {
+		} catch (Exception e){ 
+			return false;
+		}
+		finally {
 			pm.close();
 		}
 	}

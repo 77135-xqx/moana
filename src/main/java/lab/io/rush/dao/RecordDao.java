@@ -15,10 +15,10 @@ public class RecordDao {
 	
 	
 	//新增购买记录
-	public Record addRecord(Record record){ 
+	public void addRecord(Record record){ 
 		PersistenceManager pm = persistenceManagerFactory.getPersistenceManager();
 		try {
-			return pm.makePersistent(record);
+			pm.makePersistent(record);
 		} finally {
 			pm.close();
 		}
