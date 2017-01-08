@@ -19,7 +19,7 @@ public class UserDao  {
 	private PersistenceManagerFactory persistenceManagerFactory;
 	
 	//新增用户
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public User addUser(User user){ 
 		PersistenceManager pm = persistenceManagerFactory.getPersistenceManager();
 		try {	

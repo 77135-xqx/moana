@@ -41,6 +41,7 @@ public class AccountController {
 		}
 	}
 	
+	//微博回调地址
 	@RequestMapping("/weibo_login")
 	public void weibo_login(@RequestParam("code")String code,HttpSession session,HttpServletResponse response){
 		Oauth oauth = new Oauth();
