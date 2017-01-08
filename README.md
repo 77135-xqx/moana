@@ -3,7 +3,9 @@
 	项目运行小提示：
 		1. nginx-file目录并不是这个java应用里的目录，只是为了上传，将部署在nginx的文件放在此目录下
 		2. 部署时，应将nginx-file目录下的src静态文件复制到运行机子的nginx目录下，并根据nginx.conf修改运行机的nginx.conf
-		3. 应用启动入口为 IP/rush/login.html
+		3. 数据库的账号密码等信息在src/main/resource/properties/database.properties中，请根据实际情况修改
+		4. 要使用微博授权登录，应该去申请微博第三方的资格，并将client_ID,client_SERCRET等信息根据实际情况填到src/main/java/config.properties中
+		5. 应用启动入口为 IP/rush/login.html
 	项目技术组件：
 		1. 使用Spring+Spring MVC+Datanucles作为后端框架，展示页面使用BootStrap框架
 		2. 服务器使用tomcat，用nginx作为代理服务器并处理静态资源（html/css/js)

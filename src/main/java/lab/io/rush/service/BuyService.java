@@ -38,7 +38,7 @@ public class BuyService {
 		simpleMail.setTo("771350067@qq.com");//接受者  
 		simpleMail.setFrom("qx77135@sina.com");//发送者,这里还可以另起Email别名，不用和xml里的username一致  
 		simpleMail.setSubject("购票成功通知");//主题  
-		simpleMail.setText("尊敬的"+user.getWeibo_name()+ "您好，您于成功购买电影票一张，请注意观看！");//邮件内容  
+		simpleMail.setText("尊敬的"+user.getWeibo_name()+ "，您好，您成功购买电影票一张，请注意观看！");//邮件内容  
 		mailSender.send(simpleMail);
 	}
 	
